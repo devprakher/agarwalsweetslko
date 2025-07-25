@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
-import { Menu, X, Search, ShoppingBag, Phone } from "lucide-react"
+import { Menu, X, Search, ShoppingBag } from "lucide-react"
 import { Button } from "./ui/button"
 
 export default function Header() {
