@@ -88,10 +88,10 @@ export default function Header() {
             {/* <Button variant="ghost" size="icon" aria-label="Search">
               <Search className="h-5 w-5" />
             </Button> */}
-            <Button variant="ghost" size="icon" aria-label="Call us">
+            {/* <Button variant="ghost" size="icon" aria-label="Call us">
               <Link href={"/contact"}>
               <Phone className="h-5 w-5" /></Link>
-            </Button>
+            </Button> */}
             <Button className="bg-[#e94560] hover:bg-[#e94560]/90 text-white font-bold">
               <Link href={"/visit-us"} className="flex gap-1"><ShoppingBag className="h-5 w-5 mr-2" /> Visit Shop</Link>
             </Button>
