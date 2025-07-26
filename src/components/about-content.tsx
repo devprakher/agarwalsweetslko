@@ -137,19 +137,13 @@ export default function AboutContent() {
               <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-700 ">
                 <p>
-                  {`Founded in 1985 by Mr. Harish Patel, Agarwal Sweets began as a small family shop in the heart of Delhi.
-                  With a passion for preserving traditional sweet-making techniques and a commitment to quality, our
-                  humble beginnings quickly blossomed into a beloved establishment.`}
+                  {`"AGARWAL SWEETS" The Mithai and Namkeen Shop was started in 1964 in the city of Nawabs - Lucknow (UP), India.`}
                 </p>
                 <p>
-                  {`For over three decades, we've been crafting authentic Indian sweets using recipes passed down through
-                  generations. What sets us apart is our unwavering dedication to using only the finest ingredients and
-                  traditional methods to create sweets that transport you back to the flavors of home.`}
+                  {`Agarwal Sweets was conceived with the sole aim to provide our venerable customers pure, delicious, hygienic and superb quality sweets and namkeens. Our main aim is "To provide best qualities and services to our customers". The whole production is done at our Work Shop and is made under strict Quality Control to maintain the taste and quality, which is our "Unique Selling Point" to get the best quality which gets the tastebuds tingling for all. We believe in experiments and innovations so that we can provide "Something Different" taste in our products. We are famous for the Qualities as well as our packaging services which suits your occasions.`}
                 </p>
                 <p>
-                  {`Today, with multiple locations across the country and an online presence, we continue to serve our
-                  community with the same passion and commitment to excellence that has defined us from day one. While
-                  we've grown in size, our core values remain unchanged – quality, tradition, and customer satisfaction.`}
+                  {`हमारे यहाँ शादी ब्याह से संबंधित भाजी (बैना) हमेशा तयार मिलता है !`}
                 </p>
               </div>
             </motion.div>
