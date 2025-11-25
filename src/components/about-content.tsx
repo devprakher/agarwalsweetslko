@@ -114,7 +114,7 @@ export default function AboutContent() {
           >
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Our Sweet Journey</h1>
             <p className="text-lg text-gray-600  max-w3xl mx-auto">
-              Discover the story behind Agarwal Sweets and our passion for authentic Indian sweets.
+            अवधी स्पर्श, भावना, और परंपरा का ख़ास ध्यान रखते हुए !
             </p>
           </motion.div>
 
@@ -125,7 +125,7 @@ export default function AboutContent() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="relative rounded-lg overflow-hidden shadow-xl">
-                <Image src="/images/shop.jpg?height=600&width=800" height={800} width={800} alt="Sweet shop heritage" className="w-full h-auto" />
+                <Image src="/images/about_page.jpg?height=600&width=800" height={800} width={800} alt="Sweet shop heritage" className="w-full h-auto" />
               </div>
             </motion.div>
 
@@ -137,19 +137,24 @@ export default function AboutContent() {
               <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-700 ">
                 <p>
-                  {`Founded in 1985 by Mr. Harish Patel, Agarwal Sweets began as a small family shop in the heart of Delhi.
-                  With a passion for preserving traditional sweet-making techniques and a commitment to quality, our
-                  humble beginnings quickly blossomed into a beloved establishment.`}
+                  {`हमारी कहानी में बसती है लखनऊ की वह पुरातन मिठास,
+                    जिसे नवाबों ने सराहा और शहर ने सँभाला।
+                    पीढ़ियों से चली आ रही रसोई की नफ़ासत को
+                    हम आज भी उसी एहतियात और मोहब्बत से निभाते हैं।
+                    हर मिठाई में शुद्धता की खुशबू,
+                    हर स्वाद में परंपरा की रवानी—
+                    यही है हमारी पहचान, यही है हमारी विरासत !`}
                 </p>
                 <p>
-                  {`For over three decades, we've been crafting authentic Indian sweets using recipes passed down through
-                  generations. What sets us apart is our unwavering dedication to using only the finest ingredients and
-                  traditional methods to create sweets that transport you back to the flavors of home.`}
-                </p>
-                <p>
-                  {`Today, with multiple locations across the country and an online presence, we continue to serve our
-                  community with the same passion and commitment to excellence that has defined us from day one. While
-                  we've grown in size, our core values remain unchanged – quality, tradition, and customer satisfaction.`}
+                  {`लखनऊ के दिल से आपके घर तक —
+                    हम लेकर आए हैं असली अवधी मिठास।
+
+                    शुद्ध दूध, ताज़ा खोया, हाथ की कारीगरी
+                    और तहज़ीब से भरा स्वागत —
+                    यही है हमारी पहचान।
+
+                    क्योंकि यहाँ मिठाई सिर्फ़ खाई नहीं जाती…
+                    जी जाती है !`}
                 </p>
               </div>
             </motion.div>

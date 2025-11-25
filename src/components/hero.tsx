@@ -94,7 +94,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            <Button size="lg" className="bg-[#e94560] hover:bg-[#e94560]/90 text-white font-semibold px-6">
+            {/* <Button size="lg" className="bg-[#e94560] hover:bg-[#e94560]/90 text-white font-semibold px-6">
             <Link href="/categories" className="flex gap-1">
               <ShoppingBag className="mr-2 h-5 w-5" /> Explore Sweets
               </Link>
@@ -103,7 +103,7 @@ export default function Hero() {
             <Link href="/about" className="flex gap-1"><Info className="mr-2 h-5 w-5" /> Our Story</Link>
 
               
-            </Button>
+            </Button> */}
           </motion.div>
         </motion.div>
 

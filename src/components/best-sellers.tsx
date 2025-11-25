@@ -1,45 +1,43 @@
 "use client"
 
 import { useRef } from "react"
-import { motion } from "framer-motion"
-import { Star, Eye } from "lucide-react"
+import { motion, useInView } from "framer-motion"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "./ui/button"
 import Image from "next/image"
 
 export default function BestSellers() {
   const sectionRef = useRef(null)
-  // const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
+  const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
 
   const bestSellers = [
     {
       id: 1,
-      title: "Kaju Barfi",
+      title: "Khoya Mughal-E-Azam",
       category: "Cashew Based",
-      rating: 4.8,
-      price: "₹750/kg",
-      thumbnail: "/images/kaju_katli.jpg",
+      // rating: 4.8,
+      price: "₹660/kg",
+      thumbnail: "/images/khoyamughaleazam_660.jpg",
     },
     {
       id: 2,
-      title: "Soan Papdi",
+      title: "Milk Pudding",
       category: "Flaky Sweet",
-      rating: 4.6,
-      price: "₹450/kg",
-      thumbnail: "/images/sonpapdi.jpg",
+      // rating: 4.6,
+      price: "₹540/kg",
+      thumbnail: "/images/milkpudding_540.png",
     },
     {
       id: 3,
-      title: "Rabri",
+      title: "Khoya Shank",
       category: "Indian Sweet",
-      rating: 4.9,
-      price: "₹650/kg",
-      thumbnail: "/images/rabri.jpg",
+      price: "₹660/kg",
+      thumbnail: "/images/khoyashank_660.jpg",
     },
     {
       id: 4,
       title: "Besan Ladoo",
       category: "Gram Flour Based",
-      rating: 4.7,
       price: "₹550/kg",
       thumbnail: "/images/panjeeri_laddo.jpg",
     },
@@ -47,88 +45,8 @@ export default function BestSellers() {
       id: 5,
       title: "Nariyal laddo",
       category: "South Indian",
-      rating: 4.5,
       price: "₹600/kg",
       thumbnail: "/images/nariyal_laddoo.jpg",
-    },
-    {
-      id: 6,
-      title: "Peda",
-      category: "Milk Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/peda.jpg",
-    },
-    {
-      id: 7,
-      title: "Chena",
-      category: "Milk Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/chenna_cherry.jpg",
-    },
-    {
-      id: 8,
-      title: "Chamcham",
-      category: "Milk Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/chamcham.jpg",
-    },
-    {
-      id: 8.5,
-      title: "Barfi",
-      category: "Milk Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/tricolor_barfi.jpg",
-    },
-    {
-      id: 9,
-      title: "Paan",
-      category: "Milk Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/paan.jpg",
-    },
-    {
-      id: 10,
-      title: "Nariyal Laddoo",
-      category: "Milk Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/nariyal_laddoo.jpg",
-    },{
-      id: 11,
-      title: "Khoya Special Barfi",
-      category: "Milk Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/khoya.jpg",
-    },
-    {
-      id: 12,
-      title: "Bhujia",
-      category: "Gram Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/bhujia.jpg",
-    },
-    {
-      id: 13,
-      title: "Khasta",
-      category: "WHeat Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/khasta.jpg",
-    },
-    {
-      id: 14,
-      title: "Mathri",
-      category: "Wheat Based",
-      rating: 4.4,
-      price: "₹500/kg",
-      thumbnail: "/images/matri.jpg",
     },
   ]
 
@@ -147,63 +65,70 @@ export default function BestSellers() {
     show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   }
 
+  const scrollContainer = (direction: unknown) => {
+    const container = document.getElementById("best-sellers-container")
+    if (container) {
+      const scrollAmount = direction === "left" ? -container.offsetWidth / 2 : container.offsetWidth / 2
+      container.scrollBy({ left: scrollAmount, behavior: "smooth" })
+    }
+  }
+
   return (
-    <section ref={sectionRef} className="py-16 px-4 md:px-8 lg:px-16 bg-gray :bg-gray-900">
-      <div className="">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          // animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-
-          transition={{ duration: 0.5 }}
-          className=" section-title text-2xl md:text-3xl font-bold mb-4"
-        >
-          Our Best Sellers
-        </motion.h2>
-
+    <section ref={sectionRef} className="py-8 bg-white px-4 md:px-8 lg:px-16 :bg-gray-900">
+      <div className="w-full">
         <motion.div
-          variants={container}
-          initial="hidden"
-          // animate={isInView ? "show" : "hidden"}
-          animate={"show"}
-
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6 md:gap-3 gap-2"
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.5 }}
+          className="flex justify-between items-center mb-8"
         >
-          {bestSellers.map((sweet) => (
-            <motion.div
-              key={sweet.id}
-              variants={item}
-              whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className="sweet-[#ffffff] group"
-            >
-              <div className="relative aspect-square overflow-hidden rounded-t-lg">
-                <Image
-                height={400}
-                width={600}
-                  src={sweet.thumbnail || "/placeholder.svg"}
-                  alt={sweet.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <Button size="icon" className="bg-[#e94560] hover:bg-[#e94560]/90 text-white rounded-full h-12 w-12">
-                    <Eye className="h-6 w-6" />
-                  </Button>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
-                  <div className="text-white font-bold">{sweet.price}</div>
-                </div>
-              </div>
-              <div className="p-4 bg-white :bg-gray-800">
-                <h3 className="font-semibold text-lg mb-1">{sweet.title}</h3>
-                <p className="text-sm text-gray-500 :text-gray-400 mb-2">{sweet.category}</p>
-                <div className="flex items-center">
-                  <Star className="h-4 w-4 text-yellow-500 mr-1" fill="currentColor" />
-                  <span className="text-sm font-medium">{sweet.rating}</span>
-                </div>
-              </div>
-            </motion.div>
-          ))}
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold">Nawabi Khoya Delights</h2>
+            <p className="text-sm md:text-base text-gray-600 mt-1">गाढ़ा, शुद्ध और पारंपरिक अवधि स्वाद !</p>
+          </div>
+          <div className="flex gap-2">
+            <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">
+              <ChevronLeft className="h-5 w-5" />
+            </Button>
+            <Button variant="outline" size="icon" onClick={() => scrollContainer("right")} aria-label="Scroll right">
+              <ChevronRight className="h-5 w-5" />
+            </Button>
+          </div>
         </motion.div>
+
+        <div className="relative">
+          <motion.div
+            id="best-sellers-container"
+            variants={container}
+            initial="hidden"
+            animate={isInView ? "show" : "hidden"}
+            className="flex overflow-x-auto gap-6 pb-4 snap-x scrollbar-hide"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
+            {bestSellers.map((sweet) => (
+              <motion.div key={sweet.id} variants={item} className="flex-shrink-0 w-[280px] md:w-[320px] snap-start">
+                <div className="sweet-[#ffffff] group">
+                  <div className="relative aspect-square overflow-hidden rounded-lg">
+                    <Image
+                      height={400}
+                      width={600}
+                      src={sweet.thumbnail || "/placeholder.svg"}
+                      alt={sweet.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                      <span className="text-xs text-white/80">{sweet.price}</span>
+                    </div>
+                  </div>
+                  <div className="p-3">
+                    <h3 className="font-semibold text-lg mb-1 line-clamp-1">{sweet.title}</h3>
+                    <p className="text-sm text-gray-500 :text-gray-400">{sweet.category}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
+        </div>
       </div>
     </section>
   )

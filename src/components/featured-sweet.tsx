@@ -2,7 +2,7 @@
 
 import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
-import { ChevronLeft, ChevronRight, Eye } from "lucide-react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "./ui/button"
 import Image from "next/image"
 
@@ -79,7 +79,7 @@ export default function FeaturedSweets() {
   }
 
   return (
-    <section ref={sectionRef} className="py-16 bg-gradient-to-r from-[#e94560]/10 via-[#ffa500]/10 to-accent/10 px-4 md:px-8 lg:px-16 :bg-gray-900">
+    <section ref={sectionRef} className="py-8 bg-gradient-to-r from-[#e94560]/10 via-[#ffa500]/10 to-accent/10 px-4 md:px-8 lg:px-16 :bg-gray-900">
       <div className="w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -121,11 +121,6 @@ export default function FeaturedSweets() {
                       alt={sweet.title}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <Button size="icon" className="bg-[#e94560] hover:bg-[#e94560]/90 text-white rounded-full h-12 w-12">
-                        <Eye className="h-6 w-6" />
-                      </Button>
-                    </div>
                     <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
                       <span className="text-xs text-white/80">{sweet.price}</span>
                     </div>
