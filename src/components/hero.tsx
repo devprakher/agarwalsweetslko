@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { ShoppingBag, Info } from "lucide-react"
-import { Button } from "./ui/button"
-import Link from "next/link"
+// import { ShoppingBag, Info } from "lucide-react"
+// import { Button } from "./ui/button"
+// import Link from "next/link"
 import Image from "next/image"
 
 type Slide = {
