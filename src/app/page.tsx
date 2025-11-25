@@ -8,6 +8,7 @@ import Testimonials from "@/components/testimonials"
 import SpecialOffers from "@/components/special-offer"
 import Footer from "@/components/footer"
 import PromoBanner from "@/components/promo-banner"
+import MaidaItems from "@/components/maida-items"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <FeaturedSweets />
       <BestSellers />
+      <MaidaItems />
       <SpecialOffers />
       {/* <Categories /> */}
       <Testimonials />

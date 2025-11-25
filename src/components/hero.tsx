@@ -22,19 +22,19 @@ export default function Hero() {
       title: "Authentic Indian Sweets Made with Love",
       description:
         "पीढ़ियों से चली आ रही पारंपरिक विधियों से बने। शुद्ध सामग्री, असली स्वाद !",
-      image: "/images/banner_1.png",
+      image: "/images/banner_1.PNG",
       // color: "from-[#e94560]/80 to-[#ffa500]/80",
     },
     {
       title: "Special Festive Collections",
       description: "त्योहारों की रौनक बढ़ाइए हमारी पारंपरिक और आधुनिक भारतीय मिठाइयों के खास संग्रह के साथ !",
-      image: "/images/banner_2.jpg",
+      image: "/images/banner_2.JPG",
       // color: "from-[#ffa500]/80 to-accent/80",
     },
     {
       title: "Perfect Gifts for Every Occasion",
       description: "खूबसूरती से सजे मिठाई के डिब्बे, अपने अपनों को देने के लिए एकदम परफ़ेक्ट तोहफ़ा !",
-      image: "/images/ghewar.jpg", 
+      image: "/images/ghewar.JPG", 
     },
   ]
 

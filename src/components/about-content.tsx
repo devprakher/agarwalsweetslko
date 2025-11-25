@@ -125,7 +125,7 @@ export default function AboutContent() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="relative rounded-lg overflow-hidden shadow-xl">
-                <Image src="/images/about_page.jpg?height=600&width=800" height={800} width={800} alt="Sweet shop heritage" className="w-full h-auto" />
+                <Image src="/images/about_page.JPG?height=600&width=800" height={800} width={800} alt="Sweet shop heritage" className="w-full h-auto" />
               </div>
             </motion.div>
 

@@ -79,7 +79,7 @@ export default function FeaturedSweets() {
   }
 
   return (
-    <section ref={sectionRef} className="py-8 bg-gradient-to-r from-[#e94560]/10 via-[#ffa500]/10 to-accent/10 px-4 md:px-8 lg:px-16 :bg-gray-900">
+    <section ref={sectionRef} className="pt-8 pb-2 bg-gradient-to-r from-[#e94560]/10 via-[#ffa500]/10 to-accent/10 px-4 md:px-8 lg:px-16 :bg-gray-900 border-b border-gray-200">
       <div className="w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
