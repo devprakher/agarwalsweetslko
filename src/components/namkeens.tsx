@@ -11,7 +11,41 @@ export default function Namkeens() {
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
 
   const items = [
-    // Add your items here
+    {
+      id: 1,
+      title: "Bhujia",
+      category: "कुरकुरा और मसालेदार स्वाद !",
+      price: "₹300/kg",
+      thumbnail: "/images/bhujia.jpg",
+    },
+    {
+      id: 2,
+      title: "Mathri",
+      category: "पारंपरिक नमकीन, एकदम करारा !",
+      price: "₹280/kg",
+      thumbnail: "/images/matri.jpg",
+    },
+    {
+      id: 3,
+      title: "Khasta",
+      category: "मैदा का स्वाद, हर बाइट में मज़ा !",
+      price: "₹320/kg",
+      thumbnail: "/images/khasta.jpg",
+    },
+    {
+      id: 4,
+      title: "Namak Para",
+      category: "कुरकुरा नमकीन, चाय के साथ परफेक्ट !",
+      price: "₹240/kg",
+      thumbnail: "/images/namakpara_240.jpg",
+    },
+    {
+      id: 5,
+      title: "Sev",
+      category: "बारीक और कुरकुरा, हर घर का पसंदीदा !",
+      price: "₹280/kg",
+      thumbnail: "/images/bhujia.jpg",
+    },
   ]
 
   const container = {
@@ -48,7 +82,7 @@ export default function Namkeens() {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold">Namkeens</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">Description</p>
+            <p className="text-sm md:text-base text-gray-600 mt-1">कुरकुरा, मसालेदार और हर समय का स्वाद !</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">

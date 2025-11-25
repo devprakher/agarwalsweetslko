@@ -11,7 +11,41 @@ export default function Mithai() {
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
 
   const items = [
-    // Add your items here
+    {
+      id: 1,
+      title: "Gulab Jamun",
+      category: "मीठा, नर्म और दिल को छूने वाला स्वाद !",
+      price: "₹450/kg",
+      thumbnail: "/images/gulab_jamun.jpg",
+    },
+    {
+      id: 2,
+      title: "Rasgulla",
+      category: "बंगाली मिठास का असली स्वाद !",
+      price: "₹500/kg",
+      thumbnail: "/images/rasgulla.jpg",
+    },
+    {
+      id: 3,
+      title: "Kaju Katli",
+      category: "काजू की मिठास, हर बाइट में खुशी !",
+      price: "₹650/kg",
+      thumbnail: "/images/kaju_katli.jpg",
+    },
+    {
+      id: 4,
+      title: "Barfi",
+      category: "पारंपरिक मिठाई, पुराने ज़माने का स्वाद !",
+      price: "₹550/kg",
+      thumbnail: "/images/tricolor_barfi.jpg",
+    },
+    {
+      id: 5,
+      title: "Ladoo",
+      category: "गोल-गोल मिठास, हर त्योहार की खुशी !",
+      price: "₹550/kg",
+      thumbnail: "/images/laddoo.jpg",
+    },
   ]
 
   const container = {
@@ -48,7 +82,7 @@ export default function Mithai() {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold">Mithai</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">Description</p>
+            <p className="text-sm md:text-base text-gray-600 mt-1">पारंपरिक मिठाई, हर मौसम की खुशी !</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">

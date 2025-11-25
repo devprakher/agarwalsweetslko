@@ -11,7 +11,41 @@ export default function SoSweet() {
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
 
   const items = [
-    // Add your items here
+    {
+      id: 1,
+      title: "Chocolate Barfi",
+      category: "चॉकलेट और मिठाई का मिलन !",
+      price: "₹600/kg",
+      thumbnail: "/images/tricolor_barfi.jpg",
+    },
+    {
+      id: 2,
+      title: "Coconut Ladoo",
+      category: "नारियल की मिठास, हर बाइट में खुशी !",
+      price: "₹500/kg",
+      thumbnail: "/images/nariyal_laddoo.jpg",
+    },
+    {
+      id: 3,
+      title: "Milk Cake",
+      category: "दूध की मिठास, नर्म और स्वादिष्ट !",
+      price: "₹550/kg",
+      thumbnail: "/images/dudh_ki_barfi.JPG",
+    },
+    {
+      id: 4,
+      title: "Rabri",
+      category: "गाढ़ी रबड़ी, असली दूध का स्वाद !",
+      price: "₹650/kg",
+      thumbnail: "/images/rabri.JPG",
+    },
+    {
+      id: 5,
+      title: "Sonpapdi",
+      category: "कुरकुरा सोनपापड़ी, हल्की मिठास !",
+      price: "₹450/kg",
+      thumbnail: "/images/sonpapdi.JPG",
+    },
   ]
 
   const container = {
@@ -48,7 +82,7 @@ export default function SoSweet() {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold">So Sweet</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">Description</p>
+            <p className="text-sm md:text-base text-gray-600 mt-1">मीठा, नर्म और दिल को छूने वाला स्वाद !</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">

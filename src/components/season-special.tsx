@@ -11,7 +11,41 @@ export default function SeasonSpecial() {
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
 
   const items = [
-    // Add your items here
+    {
+      id: 1,
+      title: "Diwali Special Box",
+      category: "दिवाली की खुशी, मिठाई का तोहफ़ा !",
+      price: "₹1200/box",
+      thumbnail: "/images/tricolor_barfi.jpg",
+    },
+    {
+      id: 2,
+      title: "Holi Special Gujiya",
+      category: "होली की मस्ती, गुजिया की मिठास !",
+      price: "₹500/kg",
+      thumbnail: "/images/gulab_jamun.jpg",
+    },
+    {
+      id: 3,
+      title: "Rakhi Special Sweets",
+      category: "राखी का प्यार, मिठाई का तोहफ़ा !",
+      price: "₹800/box",
+      thumbnail: "/images/laddoo.jpg",
+    },
+    {
+      id: 4,
+      title: "Eid Special Seviyan",
+      category: "ईद की खुशी, सेवईं की मिठास !",
+      price: "₹400/kg",
+      thumbnail: "/images/gulab_jamun.jpg",
+    },
+    {
+      id: 5,
+      title: "New Year Gift Box",
+      category: "नए साल की शुभकामनाएं, मिठाई के साथ !",
+      price: "₹1000/box",
+      thumbnail: "/images/tricolor_barfi.jpg",
+    },
   ]
 
   const container = {
@@ -48,7 +82,7 @@ export default function SeasonSpecial() {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold">Season Special</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">Description</p>
+            <p className="text-sm md:text-base text-gray-600 mt-1">हर त्योहार की खास मिठाई, खुशियों का तोहफ़ा !</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">

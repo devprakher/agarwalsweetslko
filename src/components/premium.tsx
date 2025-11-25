@@ -11,7 +11,41 @@ export default function Premium() {
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
 
   const items = [
-    // Add your items here
+    {
+      id: 1,
+      title: "Premium Kaju Katli",
+      category: "शाही काजू कतली, असली स्वाद !",
+      price: "₹850/kg",
+      thumbnail: "/images/kaju_katli.jpg",
+    },
+    {
+      id: 2,
+      title: "Premium Pista Barfi",
+      category: "पिस्ता की मिठास, प्रीमियम गुणवत्ता !",
+      price: "₹900/kg",
+      thumbnail: "/images/tricolor_barfi.jpg",
+    },
+    {
+      id: 3,
+      title: "Premium Khoya Sweets",
+      category: "गाढ़ा खोया, शाही स्वाद !",
+      price: "₹750/kg",
+      thumbnail: "/images/khoya.jpg",
+    },
+    {
+      id: 4,
+      title: "Premium Dry Fruits Mix",
+      category: "सूखे मेवे की मिठास, हेल्थी और टेस्टी !",
+      price: "₹1200/kg",
+      thumbnail: "/images/kaju_katli.jpg",
+    },
+    {
+      id: 5,
+      title: "Premium Gift Box",
+      category: "खास तोहफ़ा, प्रीमियम मिठाई का बॉक्स !",
+      price: "₹1500/box",
+      thumbnail: "/images/tricolor_barfi.jpg",
+    },
   ]
 
   const container = {
@@ -48,7 +82,7 @@ export default function Premium() {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold">Premium</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">Description</p>
+            <p className="text-sm md:text-base text-gray-600 mt-1">शाही गुणवत्ता, असली स्वाद और बेहतरीन अनुभव !</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">
