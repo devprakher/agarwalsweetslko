@@ -17,7 +17,7 @@ export default function BestSellers() {
       category: "Cashew Based",
       // rating: 4.8,
       price: "₹660/kg",
-      thumbnail: "/images/khoyamughaleazam_660.jpg",
+      thumbnail: "/images/khoyamughaleazam_660.JPG",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export default function BestSellers() {
       category: "Flaky Sweet",
       // rating: 4.6,
       price: "₹540/kg",
-      thumbnail: "/images/milkpudding_540.png",
+      thumbnail: "/images/milkpudding_540.PNG",
     },
     {
       id: 3,
