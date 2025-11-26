@@ -17,7 +17,7 @@ export default function BestSellers() {
       category: "Cashew Based",
       // rating: 4.8,
       price: "₹660/kg",
-      thumbnail: "/images/khoyamughaleazam_660.JPG",
+      thumbnail: "/images/khoyamughaleazam_660.jpg",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ export default function BestSellers() {
       title: "Besan Ladoo",
       category: "Gram Flour Based",
       price: "₹550/kg",
-      thumbnail: "/images/panjeeri_laddo.jpg",
+      thumbnail: "/images/panjeeri_laddo.JPG",
     },
     {
       id: 5,

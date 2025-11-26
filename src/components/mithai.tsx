@@ -13,38 +13,38 @@ export default function Mithai() {
   const items = [
     {
       id: 1,
-      title: "Gulab Jamun",
-      category: "मीठा, नर्म और दिल को छूने वाला स्वाद !",
-      price: "₹450/kg",
-      thumbnail: "/images/gulab_jamun.jpg",
+      title: "Besan Laddoo",
+      category: "घी की खुशबू और घर जैसा स्वाद !",
+      price: "₹280/kg",
+      thumbnail: "/images/besanladdu_280.JPG",
     },
     {
       id: 2,
-      title: "Rasgulla",
-      category: "बंगाली मिठास का असली स्वाद !",
-      price: "₹500/kg",
-      thumbnail: "/images/rasgulla.jpg",
+      title: "Kala Jaam",
+      category: "गहरा रंग, नरम दिल और शाही मिठास !",
+      price: "₹540/kg",
+      thumbnail: "/images/kalajaam_540.JPG",
     },
     {
       id: 3,
-      title: "Kaju Katli",
-      category: "काजू की मिठास, हर बाइट में खुशी !",
-      price: "₹650/kg",
-      thumbnail: "/images/kaju_katli.jpg",
+      title: "Motichoor Laddoo",
+      category: "नाज़ुक दाने, रेशमी मिठास !",
+      price: "₹550/kg",
+      thumbnail: "/images/motichoorladdu_280.JPG",
     },
     {
       id: 4,
-      title: "Barfi",
-      category: "पारंपरिक मिठाई, पुराने ज़माने का स्वाद !",
-      price: "₹550/kg",
-      thumbnail: "/images/tricolor_barfi.jpg",
+      title: "Meethi Boondi",
+      category: "हल्की, रसदार और एकदम पारंपरिक !",
+      price: "₹180/kg",
+      thumbnail: "/images/methiboondi_180.JPG",
     },
     {
       id: 5,
-      title: "Ladoo",
-      category: "गोल-गोल मिठास, हर त्योहार की खुशी !",
-      price: "₹550/kg",
-      thumbnail: "/images/laddoo.jpg",
+      title: "Milk Barfi",
+      category: "दूध की शुद्धता का नर्म स्वाद !",
+      price: "₹660/kg",
+      thumbnail: "/images/milkbarfi_660.PNG",
     },
   ]
 
@@ -81,8 +81,8 @@ export default function Mithai() {
           className="flex justify-between items-center mb-8"
         >
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold">Mithai</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">पारंपरिक मिठाई, हर मौसम की खुशी !</p>
+            <h2 className="text-2xl md:text-3xl font-bold">Awadhi Mithai Mahal</h2>
+            <p className="text-sm md:text-base text-gray-600 mt-1">परंपरा से बनी, प्यार से सजी — असली भारतीय मिठास का स्वाद !</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">

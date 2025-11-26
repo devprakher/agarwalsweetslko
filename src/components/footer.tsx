@@ -62,8 +62,15 @@ export default function Footer() {
                 </span>
               </Link>
               <p className="text-gray-400 mb-6 max-w-md">
-                Bringing the authentic taste of traditional Indian sweets to your doorstep. Handcrafted with love using
-                pure ingredients and time-honored recipes.
+              लखनऊ के दिल से आपके घर तक —
+              हम लेकर आते हैं असली अवधी मिठास।<br/>
+
+              शुद्ध दूध, ताज़ा खोया, हाथों की कारीगरी
+              और अपनापन से भरा स्वागत —
+              यही हमारी पहचान है।<br/>
+
+              क्योंकि यहाँ मिठाई सिर्फ़ खाई नहीं जाती…
+              महसूस की जाती है, जी ली जाती है।
               </p>
               <div className="flex space-x-4">
                 {socialLinks.map((link, index) => (

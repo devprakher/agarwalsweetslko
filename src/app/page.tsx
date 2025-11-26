@@ -9,6 +9,8 @@ import SpecialOffers from "@/components/special-offer"
 import Footer from "@/components/footer"
 import PromoBanner from "@/components/promo-banner"
 import MaidaItems from "@/components/maida-items"
+import Mithai from "@/components/mithai"
+import Namkeens from "@/components/namkeens"
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <FeaturedSweets />
       <BestSellers />
       <MaidaItems />
+      <Mithai />
+      <Namkeens />
       <SpecialOffers />
       {/* <Categories /> */}
       <Testimonials />
