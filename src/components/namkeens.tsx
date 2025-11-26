@@ -16,14 +16,14 @@ export default function Namkeens() {
       title: "Aloo Bhujia",
       category: "कुरकुरा और मसालेदार स्वाद !",
       price: "₹220/kg",
-      thumbnail: "/images/namkeens/aloobhujiya_220.JPG",
+      thumbnail: "/images/namkeens/aloobhujiya_220.jpg",
     },
     {
       id: 2,
       title: "Aloo Laccha",
       category: "पारंपरिक नमकीन, एकदम करारा !",
       price: "₹220/kg",
-      thumbnail: "/images/namkeens/aloolaccha_220.JPG",
+      thumbnail: "/images/namkeens/aloolaccha_220.jpg",
     },
     {
       id: 3,
@@ -37,7 +37,7 @@ export default function Namkeens() {
       title: "Hind Sev",
       category: "कुरकुरा नमकीन, चाय के साथ परफेक्ट !",
       price: "₹220/kg",
-      thumbnail: "/images/namkeens/hindsev_220.JPG",
+      thumbnail: "/images/namkeens/hindsev_220.jpg",
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ export default function Namkeens() {
       title: "Plain Dalmoth",
       category: "बारीक और कुरकुरा, हर घर का पसंदीदा !",
       price: "₹220/kg",
-      thumbnail: "/images/namkeens/plaindalmoth_220.JPG",
+      thumbnail: "/images/namkeens/plaindalmoth_220.jpg",
     },
     {
       id: 8,

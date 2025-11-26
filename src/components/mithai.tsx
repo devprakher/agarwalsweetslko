@@ -44,7 +44,7 @@ export default function Mithai() {
       title: "Milk Barfi",
       category: "दूध की शुद्धता का नर्म स्वाद !",
       price: "₹660/kg",
-      thumbnail: "/images/milkbarfi_660.PNG",
+      thumbnail: "/images/milkbarfi_660.png",
     },
   ]
 

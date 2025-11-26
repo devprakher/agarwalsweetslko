@@ -46,7 +46,7 @@ export default function BestSellers() {
       title: "Nariyal laddo",
       category: "South Indian",
       price: "₹600/kg",
-      thumbnail: "/images/nariyal_laddoo.jpg",
+      thumbnail: "/images/nariyal_laddoo.JPG",
     },
   ]
 
