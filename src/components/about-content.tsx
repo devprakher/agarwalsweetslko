@@ -102,9 +102,9 @@ export default function AboutContent() {
   }
 
   return (
-    <div className="bg-white ">
+    <div className="bg-white">
       {/* Hero Section */}
-      <section ref={sectionRef} className="py-16 bg-gradient-to-r from-[#e94560]/10 via-[#ffa500]/10 to-accent/10 px-4 md:px-8 lg:px-16">
+      <section ref={sectionRef} className="pt-16 pb-2 bg-gradient-to-r from-[#e94560]/10 via-[#ffa500]/10 to-accent/10 px-4 md:px-8 lg:px-16">
         <div className="">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -162,7 +162,7 @@ export default function AboutContent() {
         </div>
       </section>
       {/* Our Team */}
-      <section ref={teamRef} className="py-16 px-4 md:px-8 lg:px-16">
+      <section ref={teamRef} className="py-16 px-4 md:px-8 lg:px-16" style={{ display: "none" }}>
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -201,7 +201,7 @@ export default function AboutContent() {
       </section>
 
       {/* Our Values */}
-      <section ref={valuesRef} className="py-16 px-4 md:px-8 lg:px-16">
+      <section ref={valuesRef} className="py-16 px-4 md:px-8 lg:px-16" style={{ display: "none" }}>
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -239,7 +239,7 @@ export default function AboutContent() {
       </section>
 
       {/* Our Process */}
-      <section ref={processRef} className="py-16 bg-gray-50 :bg-gray-800 px-4 md:px-8 lg:px-16">
+      <section ref={processRef} className="py-16 bg-gray-50 :bg-gray-800 px-4 md:px-8 lg:px-16" style={{ display: "none" }}>
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

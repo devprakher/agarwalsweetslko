@@ -20,7 +20,7 @@ export default function ContactContent() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: ["+91 98765 43210", "+91 98765 43211"],
+      details: ["+91 98391 81313", "+91 98391 77889"],
     },
     {
       icon: <Mail className="h-6 w-6" />,
@@ -30,7 +30,7 @@ export default function ContactContent() {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Main Office",
-      details: ["123 Sweet Lane, Connaught Place", "New Delhi, 110001, India"],
+      details: ["309, Aminabad Road, Ganeshganj, Lucknow, India, 226018"],
     },
     {
       icon: <Clock className="h-6 w-6" />,

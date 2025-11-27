@@ -8,7 +8,7 @@ export default function AboutPage() {
     <main className="min-h-screen">
       <PromoBanner />
       <Header />
-      <div className="pt-10 pb-16">
+      <div className="pt-10 pb-0">
         <AboutContent />
       </div>
       <Footer />

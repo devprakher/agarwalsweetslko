@@ -15,47 +15,15 @@ export default function LocationsMap() {
   const locations = [
     {
       id: 1,
-      name: "Connaught Place",
-      address: "123 Sweet Lane, Connaught Place, New Delhi, 110001",
-      phone: "+91 98765 43210",
-      hours: "9:00 AM - 9:00 PM (Mon-Sat), 10:00 AM - 6:00 PM (Sun)",
+      name: "Agarwal Sweets - Lucknow",
+      address: "309, Aminabad Road, Ganeshganj, Lucknow, India, 226018",
+      phone: "+91 98391 81313",
+      hours: "9:00 AM - 10:00 PM (All days)",
       mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8034239809326!2d77.21762641508096!3d28.63108148241655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xcdee88e47393c3f1!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1647339490089!5m2!1sen!2sin",
-      image: "/placeholder.svg?height=300&width=400",
-      popular: ["Kaju Katli", "Gulab Jamun", "Rasgulla"],
-    },
-    {
-      id: 2,
-      name: "South Extension",
-      address: "456 Dessert Avenue, South Extension Part II, New Delhi, 110049",
-      phone: "+91 98765 43211",
-      hours: "9:00 AM - 9:00 PM (Mon-Sat), 10:00 AM - 6:00 PM (Sun)",
-      mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.0238874042456!2d77.22308231508002!3d28.570161784418283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce26e01e8e2fb%3A0x9e9b35f4a3d0b2a!2sSouth%20Extension%20II%2C%20New%20Delhi%2C%20Delhi%20110049!5e0!3m2!1sen!2sin!4v1647339567089!5m2!1sen!2sin",
-      image: "/placeholder.svg?height=300&width=400",
-      popular: ["Soan Papdi", "Besan Ladoo", "Jalebi"],
-    },
-    {
-      id: 3,
-      name: "Noida Sector 18",
-      address: "789 Mithai Market, Sector 18, Noida, Uttar Pradesh, 201301",
-      phone: "+91 98765 43212",
-      hours: "10:00 AM - 10:00 PM (All days)",
-      mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0376874686394!2d77.32559231508085!3d28.56830128442651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce44d95e77c7d%3A0x75e6c6f6ead7c63a!2sSector%2018%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1647339626089!5m2!1sen!2sin",
-      image: "/placeholder.svg?height=300&width=400",
-      popular: ["Rasmalai", "Milk Cake", "Peda"],
-    },
-    {
-      id: 4,
-      name: "Gurgaon Galleria",
-      address: "101 Sweet Corner, DLF Galleria, Gurgaon, Haryana, 122002",
-      phone: "+91 98765 43213",
-      hours: "10:00 AM - 10:00 PM (All days)",
-      mapUrl:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2608157040313!2d77.09066231507842!3d28.467742984866196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18a1d6a8a5a5%3A0x87f6d9c3b3d8a2f1!2sDLF%20Galleria%2C%20DLF%20Phase%20IV%2C%20Sector%2027%2C%20Gurugram%2C%20Haryana%20122002!5e0!3m2!1sen!2sin!4v1647339686089!5m2!1sen!2sin",
-      image: "/placeholder.svg?height=300&width=400",
-      popular: ["Kaju Barfi", "Motichoor Ladoo", "Mysore Pak"],
+        "https://www.google.com/maps/place/Agarwal+Sweets/@26.8421572,80.9207123,17z/data=!3m1!4b1!4m6!3m5!1s0x399bfdb588e41ed3:0xa1637a0f5b5f0150!8m2!3d26.8421524!4d80.9232926!16s%2Fg%2F1tdlfpx0?authuser=0&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
+      mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.1234567890!2d80.9232926!3d26.8421524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfdb588e41ed3%3A0xa1637a0f5b5f0150!2sAgarwal%20Sweets!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin",
+      image: "/images/peda.JPG",
+      popular: ["Kaju Katli11", "Gulab Jamun", "Rasgulla"],
     },
   ]
 
@@ -66,7 +34,7 @@ export default function LocationsMap() {
 
   return (
     <div className="bg-white :bg-gray-900">
-      <section ref={sectionRef} className="py-16">
+      <section ref={sectionRef} className="pt-16 pb-2">
         <div className="px-4 md:px-8 lg:px-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -74,23 +42,23 @@ export default function LocationsMap() {
             transition={{ duration: 0.5 }}
             className="text-center mb-12"
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Visit Our Stores</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Visit Our Store</h1>
             <p className="text-lg text-gray-600 :text-gray-400 max-w-3xl mx-auto">
-              Experience the aroma and taste of our freshly made sweets at any of our conveniently located stores.
+              Experience the aroma and taste of our freshly made sweets at our store.
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
               transition={{ duration: 0.5 }}
               className="lg:col-span-1"
             >
-              <div className="bg-white :bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-                <div className="p-6">
+              <div className="bg-white :bg-gray-800 rounded-lg shadow-lg overflow-hidden h-full flex flex-col">
+                <div className="p-6 flex-1 flex flex-col">
                   <h2 className="text-2xl font-bold mb-6">Our Locations</h2>
-                  <div className="space-y-4">
+                  <div className="space-y-4 flex-1">
                     {locations.map((location, index) => (
                       <div
                         key={location.id}
@@ -102,9 +70,19 @@ export default function LocationsMap() {
                         onClick={() => setActiveLocation(index)}
                       >
                         <h3 className="font-bold text-lg mb-2">{location.name}</h3>
-                        <div className="flex items-start text-sm text-gray-600 :text-gray-400">
+                        <div className="flex items-start text-sm text-gray-600 :text-gray-400 mb-2">
                           <MapPin className="h-4 w-4 mr-2 mt-0.5 flex-shrink-0" />
                           <span>{location.address}</span>
+                        </div>
+                        <div className="mt-8 space-y-3">
+                          <Image
+                            src={"/images/contact_1.JPG"}
+                            alt={location.name}
+                            className="w-full h-auto rounded-lg"
+                            width={400}
+                            height={300}
+                          />
+                          
                         </div>
                       </div>
                     ))}
@@ -119,10 +97,10 @@ export default function LocationsMap() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="lg:col-span-2"
             >
-              <div className="bg-white :bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-white :bg-gray-800 rounded-lg shadow-lg overflow-hidden h-full flex flex-col">
                 <div className="aspect-video w-full">
                   <iframe
-                    src={locations[activeLocation].mapUrl}
+                    src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.1234567890!2d80.9232926!3d26.8421524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfdb588e41ed3%3A0xa1637a0f5b5f0150!2sAgarwal%20Sweets!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin`}
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -158,7 +136,7 @@ export default function LocationsMap() {
                           <span>{locations[activeLocation].hours}</span>
                         </div>
                       </div>
-                      <div className="mt-4">
+                      <div className="mt-4" style={{ display: "none" }}>
                         <h4 className="font-semibold mb-2">Popular at this location:</h4>
                         <div className="flex flex-wrap gap-2">
                           {locations[activeLocation].popular.map((item, i) => (
@@ -171,8 +149,11 @@ export default function LocationsMap() {
                           ))}
                         </div>
                       </div>
-                      <div className="mt-6">
-                        <Button className="bg-brand-[#e94560] hover:bg-brand-[#e94560]/90">
+                      <div className="mt-6" style={{ display: "none" }}>
+                        <Button 
+                          className="bg-brand-[#e94560] hover:bg-brand-[#e94560]/90"
+                          onClick={() => window.open(locations[activeLocation].mapUrl, '_blank', 'noopener,noreferrer')}
+                        >
                           <ExternalLink className="mr-2 h-4 w-4" /> Get Directions
                         </Button>
                       </div>

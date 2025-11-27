@@ -16,7 +16,7 @@ export default function Premium() {
       title: "Gondmera Laddoo",
       category: "शाही काजू कतली, असली स्वाद !",
       price: "₹700/kg",
-      thumbnail: "/images/premium/gondmeraladdoo _700.JPG",
+      thumbnail: "/images/premium/gondmeraladdoo_700.JPG",
     },
     {
       id: 2,
