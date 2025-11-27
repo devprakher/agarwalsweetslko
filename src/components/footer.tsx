@@ -121,7 +121,7 @@ export default function Footer() {
             <div className="text-gray-400 text-sm">
               <p>© {new Date().getFullYear()} Agarwal Sweets. All rights reserved.</p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 md:justify-end">
+            <div className="flex flex-col sm:flex-row gap-4 md:justify-end" style={{ display: "none" }}>
               <div className="flex items-center text-gray-400">
                 <Mail className="h-4 w-4 mr-2" />
                 <span>info@Agarwal Sweets.com</span>
