@@ -11,6 +11,8 @@ import PromoBanner from "@/components/promo-banner"
 import MaidaItems from "@/components/maida-items"
 import Mithai from "@/components/mithai"
 import Namkeens from "@/components/namkeens"
+import Premium from "@/components/premium"
+import SoSweet from "@/components/so-sweet"
 
 export default function Home() {
   return (
@@ -23,7 +25,9 @@ export default function Home() {
       <MaidaItems />
       <Mithai />
       <Namkeens />
-      <SpecialOffers />
+      <Premium />
+      <SoSweet />
+      {/* <SpecialOffers /> */}
       {/* <Categories /> */}
       <Testimonials />
       <Footer />
