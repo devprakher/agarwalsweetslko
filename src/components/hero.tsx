@@ -34,7 +34,7 @@ export default function Hero() {
     {
       title: "Perfect Gifts for Every Occasion",
       description: "खूबसूरती से सजे मिठाई के डिब्बे, अपने अपनों को देने के लिए एकदम परफ़ेक्ट तोहफ़ा !",
-      image: "/images/ghewar.JPG", 
+      image: "/images/ghewar.jpg", 
     },
   ]
 
