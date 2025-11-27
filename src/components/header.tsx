@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
-import { Menu, X, Search, ShoppingBag } from "lucide-react"
+import { Menu, X, ShoppingBag } from "lucide-react"
 import { Button } from "./ui/button"
 
 export default function Header() {
@@ -140,14 +140,22 @@ export default function Header() {
                   </Link>
                 ))}
                 <div className="flex items-center space-x-2 pt-2 [#e2e8f0]-t [#e2e8f0]-gray-200 :[#e2e8f0]-gray-700 mt-2">
-                  <Button variant="ghost" size="icon" aria-label="Search">
-                    <Search className="h-5 w-5" />
+                  <Button variant="ghost" size="icon" aria-label="Chat on WhatsApp">
+                    <a
+                      href="https://wa.me/919839177889"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center"
+                    >
+                      <img 
+                        src="/images/whatsapp-icon.png" 
+                        alt="WhatsApp" 
+                        className="h-10 w-10 object-contain"
+                      />
+                    </a>
                   </Button>
-                  {/* <Button variant="ghost" size="icon" aria-label="Call us">
-                    <Phone className="h-5 w-5" />
-                  </Button> */}
                   <Button className="bg-[#e94560] hover:bg-[#e94560]/90 text-white font-bold">
-                    <ShoppingBag className="h-5 w-5 mr-2" /> Visit Shop
+                    <Link href={"/visit-us"} className="flex gap-1"><ShoppingBag className="h-5 w-5 mr-2" /> Visit Shop</Link>
                   </Button>
                 </div>
               </nav>
