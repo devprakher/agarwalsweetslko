@@ -14,7 +14,7 @@ export default function BestSellers() {
     {
       id: 1,
       title: "Khoya Mughal-E-Azam",
-      category: "Cashew Based",
+      category: "शाही खोये का बेमिसाल नवाबी स्वाद !",
       // rating: 4.8,
       price: "₹660/kg",
       thumbnail: "/images/khoyamughaleazam_660.jpg",
@@ -22,7 +22,7 @@ export default function BestSellers() {
     {
       id: 2,
       title: "Milk Pudding",
-      category: "Flaky Sweet",
+      category: "दूध की नर्मी और मखमली मिठास !",
       // rating: 4.6,
       price: "₹540/kg",
       thumbnail: "/images/milkpudding_540.PNG",
@@ -30,21 +30,21 @@ export default function BestSellers() {
     {
       id: 3,
       title: "Khoya Shank",
-      category: "Indian Sweet",
+      category: "खोये की भरपूरता, पारंपरिक लखनवी अंदाज़ !",
       price: "₹660/kg",
       thumbnail: "/images/khoyashank_660.jpg",
     },
     {
       id: 4,
       title: "Besan Ladoo",
-      category: "Gram Flour Based",
+      category: "घी की खुशबू वाला घर जैसा स्वाद !",
       price: "₹550/kg",
       thumbnail: "/images/panjeeri_laddo.JPG",
     },
     {
       id: 5,
       title: "Nariyal laddo",
-      category: "South Indian",
+      category: "नारियल की सौंधी, मुलायम मिठास",
       price: "₹600/kg",
       thumbnail: "/images/nariyal_laddoo.JPG",
     },
