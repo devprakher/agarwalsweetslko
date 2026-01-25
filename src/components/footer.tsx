@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Youtube, Mail, Phone } from "lucide-react"
+import { Facebook, Instagram, Mail, Phone } from "lucide-react"
 
 export default function Footer() {
   const footerLinks = [

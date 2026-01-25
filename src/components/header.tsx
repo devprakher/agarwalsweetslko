@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X, ShoppingBag } from "lucide-react"
 import { Button } from "./ui/button"
 
@@ -96,9 +97,11 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center"
               >
-                <img 
+                <Image 
                   src="/images/whatsapp-icon.png" 
                   alt="WhatsApp" 
+                  width={40}
+                  height={40}
                   className="h-10 w-10 object-contain"
                 />
               </a>
@@ -147,9 +150,11 @@ export default function Header() {
                       rel="noopener noreferrer"
                       className="flex items-center justify-center"
                     >
-                      <img 
+                      <Image 
                         src="/images/whatsapp-icon.png" 
                         alt="WhatsApp" 
+                        width={40}
+                        height={40}
                         className="h-10 w-10 object-contain"
                       />
                     </a>
