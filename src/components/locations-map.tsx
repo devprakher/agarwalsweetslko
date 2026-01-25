@@ -22,7 +22,7 @@ export default function LocationsMap() {
       mapUrl:
         "https://www.google.com/maps/place/Agarwal+Sweets/@26.8421572,80.9207123,17z/data=!3m1!4b1!4m6!3m5!1s0x399bfdb588e41ed3:0xa1637a0f5b5f0150!8m2!3d26.8421524!4d80.9232926!16s%2Fg%2F1tdlfpx0?authuser=0&entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D",
       mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.1234567890!2d80.9232926!3d26.8421524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfdb588e41ed3%3A0xa1637a0f5b5f0150!2sAgarwal%20Sweets!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin",
-      image: "/images/peda.JPG",
+      image: "/images/visitus.png",
       popular: ["Kaju Katli11", "Gulab Jamun", "Rasgulla"],
     },
   ]

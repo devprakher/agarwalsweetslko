@@ -16,7 +16,7 @@ export default function BestSellers() {
       title: "Khoya Bhutta",
       category: "खोये की भरपूरता, पारंपरिक लखनवी अंदाज़ !",
       price: "₹660/kg",
-      thumbnail: "/images/khoyabutta_660.PNG",
+      thumbnail: "/images/khoyabutta_660.png",
     },
     {
       id: 2,
@@ -53,7 +53,7 @@ export default function BestSellers() {
       title: "Kalakanth",
       category: "घी की खुशबू वाला घर जैसा स्वाद !",
       price: "₹660/kg",
-      thumbnail: "/images/kalakanth_660.PNG",
+      thumbnail: "/images/kalakanth_660.png",
     },
     
   ]
