@@ -39,10 +39,10 @@ export default function Footer() {
   ]
 
   const socialLinks = [
-    { icon: <Facebook className="h-5 w-5" />, href: "#", label: "Facebook" },
-    { icon: <Twitter className="h-5 w-5" />, href: "#", label: "Twitter" },
-    { icon: <Instagram className="h-5 w-5" />, href: "#", label: "Instagram" },
-    { icon: <Youtube className="h-5 w-5" />, href: "#", label: "YouTube" },
+    { icon: <Facebook className="h-5 w-5" />, href: "https://www.facebook.com/agarwalsweetslucknow", label: "Facebook" },
+    // { icon: <Twitter className="h-5 w-5" />, href: "#", label: "Twitter" },
+    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/_agarwal_sweets/", label: "Instagram" },
+    // { icon: <Youtube className="h-5 w-5" />, href: "#", label: "YouTube" },
   ]
 
   return (

@@ -58,7 +58,7 @@ export default function MaidaItems() {
         title: "Saakhe",
         category: "पारंपरिक नमकीन, एकदम करारा !",
         price: "₹240/kg",
-        thumbnail: "/images/namakpara_240.jpg",
+        thumbnail: "/images/sakhe_240.jpg",
       },
   ]
 

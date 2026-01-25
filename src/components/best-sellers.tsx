@@ -13,6 +13,20 @@ export default function BestSellers() {
   const bestSellers = [
     {
       id: 1,
+      title: "Khoya Bhutta",
+      category: "खोये की भरपूरता, पारंपरिक लखनवी अंदाज़ !",
+      price: "₹660/kg",
+      thumbnail: "/images/khoyabutta_660.PNG",
+    },
+    {
+      id: 2,
+      title: "Khoya Mango",
+      category: "मंगो की मिठास, खोये की भरपूरता !",
+      price: "₹660/kg",
+      thumbnail: "/images/khoyamango_660.PNG",
+    },
+    {
+      id: 3,
       title: "Khoya Mughal-E-Azam",
       category: "शाही खोये का बेमिसाल नवाबी स्वाद !",
       // rating: 4.8,
@@ -20,7 +34,7 @@ export default function BestSellers() {
       thumbnail: "/images/khoyamughaleazam_660.jpg",
     },
     {
-      id: 2,
+      id: 4,
       title: "Milk Pudding",
       category: "दूध की नर्मी और मखमली मिठास !",
       // rating: 4.6,
@@ -28,26 +42,20 @@ export default function BestSellers() {
       thumbnail: "/images/milkpudding_540.PNG",
     },
     {
-      id: 3,
+      id: 5,
       title: "Khoya Shank",
       category: "खोये की भरपूरता, पारंपरिक लखनवी अंदाज़ !",
       price: "₹660/kg",
       thumbnail: "/images/khoyashank_660.jpg",
     },
     {
-      id: 4,
-      title: "Besan Ladoo",
+      id: 6,
+      title: "Kalakanth",
       category: "घी की खुशबू वाला घर जैसा स्वाद !",
-      price: "₹550/kg",
-      thumbnail: "/images/panjeeri_laddo.JPG",
+      price: "₹660/kg",
+      thumbnail: "/images/kalakanth_660.PNG",
     },
-    {
-      id: 5,
-      title: "Nariyal laddo",
-      category: "नारियल की सौंधी, मुलायम मिठास",
-      price: "₹600/kg",
-      thumbnail: "/images/nariyal_laddoo.JPG",
-    },
+    
   ]
 
   const container = {

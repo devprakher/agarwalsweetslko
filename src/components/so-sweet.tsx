@@ -22,7 +22,7 @@ export default function SoSweet() {
       id: 2,
       title: "Imarti",
       category: "नारियल की मिठास, हर बाइट में खुशी !",
-      price: "₹500/kg",
+      price: "₹400/kg",
       thumbnail: "/images/sosweet/imarti.jpg",
     },
     {
