@@ -36,7 +36,7 @@ export default function FestiveDelights() {
       id: 4,
       title: "Baby Kesar Gujhiya",
       category: "छोटी सी गुजिया, केसर की बड़ी खुशबू!",
-      price: "₹640/kg",
+      price: "₹960/kg",
       thumbnail: "/images/festivals/baby_kesar_gujhiya_640.PNG",
     },
   ]
