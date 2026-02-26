@@ -1,5 +1,6 @@
 "use client"
 import Header from "@/components/header"
+import FestiveDelights from "@/components/festive-delights"
 import Hero from "@/components/hero"
 import FeaturedSweets from "@/components/featured-sweet"
 // import Categories from "@/components/categories"
@@ -20,6 +21,7 @@ export default function Home() {
       <PromoBanner />
       <Header />
       <Hero />
+      <FestiveDelights />
       <FeaturedSweets />
       <BestSellers />
       <MaidaItems />

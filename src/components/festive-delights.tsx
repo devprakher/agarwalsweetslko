@@ -6,45 +6,38 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "./ui/button"
 import Image from "next/image"
 
-export default function Mithai() {
+export default function FestiveDelights() {
   const sectionRef = useRef(null)
   const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
 
   const items = [
     {
       id: 1,
-      title: "Besan Laddoo",
-      category: "घी की खुशबू और घर जैसा स्वाद !",
-      price: "₹280/kg",
-      thumbnail: "/images/besanladdu_280.JPG",
+      title: "Gujhiya",
+      category: "सादा स्वाद, होली की असली पहचान!",
+      price: "₹640/kg",
+      thumbnail: "/images/festivals/gujhiya_640.jpeg",
     },
     {
       id: 2,
-      title: "Kala Jaam",
-      category: "गहरा रंग, नरम दिल और शाही मिठास !",
-      price: "₹540/kg",
-      thumbnail: "/images/kalajaam_540.JPG",
+      title: "Sugar Dip Gujhiya",
+      category: "चीनी की चाशनी में डूबी होली की मिठास!",
+      price: "₹640/kg",
+      thumbnail: "/images/festivals/sugar_dip_gujhiya_640.PNG",
     },
     {
       id: 3,
-      title: "Motichoor Laddoo",
-      category: "नाज़ुक दाने, रेशमी मिठास !",
-      price: "₹280/kg",
-      thumbnail: "/images/motichoorladdu_280.JPG",
+      title: "Thandai Gujhiya",
+      category: "ठंडाई का नशा, गुजिया के अंदाज़ में!",
+      price: "₹640/kg",
+      thumbnail: "/images/festivals/thandai_gujhiya_640.PNG",
     },
     {
       id: 4,
-      title: "Meethi Boondi",
-      category: "हल्की, रसदार और एकदम पारंपरिक !",
-      price: "₹180/kg",
-      thumbnail: "/images/methiboondi_180.JPG",
-    },
-    {
-      id: 5,
-      title: "Milk Barfi",
-      category: "दूध की शुद्धता का नर्म स्वाद !",
-      price: "₹660/kg",
-      thumbnail: "/images/milkbarfi_660.png",
+      title: "Baby Kesar Gujhiya",
+      category: "छोटी सी गुजिया, केसर की बड़ी खुशबू!",
+      price: "₹640/kg",
+      thumbnail: "/images/festivals/baby_kesar_gujhiya_640.PNG",
     },
   ]
 
@@ -63,16 +56,16 @@ export default function Mithai() {
     show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   }
 
-  const scrollContainer = (direction: unknown) => {
-    const container = document.getElementById("mithai-container")
-    if (container) {
-      const scrollAmount = direction === "left" ? -container.offsetWidth / 2 : container.offsetWidth / 2
-      container.scrollBy({ left: scrollAmount, behavior: "smooth" })
+  const scrollContainer = (direction: "left" | "right") => {
+    const containerEl = document.getElementById("festive-delights-container")
+    if (containerEl) {
+      const scrollAmount = direction === "left" ? -containerEl.offsetWidth / 2 : containerEl.offsetWidth / 2
+      containerEl.scrollBy({ left: scrollAmount, behavior: "smooth" })
     }
   }
 
   return (
-    <section ref={sectionRef} className="pt-8 pb-2 bg-white px-4 md:px-8 lg:px-16 :bg-gray-900 border-b border-gray-200">
+    <section ref={sectionRef} className="pt-8 pb-2 bg-gradient-to-r from-[#e94560]/10 via-[#ffa500]/10 to-accent/10 px-4 md:px-8 lg:px-16 :bg-gray-900 border-b border-gray-200">
       <div className="w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -81,8 +74,8 @@ export default function Mithai() {
           className="flex justify-between items-center mb-8"
         >
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold">Awadhi Mithai Mahal</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">परंपरा से बनी, प्यार से सजी — असली भारतीय मिठास का स्वाद !</p>
+            <h2 className="text-2xl md:text-3xl font-bold">Festive Delights</h2>
+            <p className="text-sm md:text-base text-gray-600 mt-1">Your subtitle or tagline here</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">
@@ -96,7 +89,7 @@ export default function Mithai() {
 
         <div className="relative">
           <motion.div
-            id="mithai-container"
+            id="festive-delights-container"
             variants={container}
             initial="hidden"
             animate={isInView ? "show" : "hidden"}
@@ -131,4 +124,3 @@ export default function Mithai() {
     </section>
   )
 }
-

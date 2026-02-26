@@ -22,7 +22,7 @@ export default function MaidaItems() {
         id: 2,
         title: "Bhel Papdi",
         category: "हल्का, मज़ेदार और चटपटा स्वाद !",
-        price: "₹240/kg",
+        price: "₹260/kg",
         thumbnail: "/images/bhelpapdi_240.jpg",
       },
       {
@@ -36,7 +36,7 @@ export default function MaidaItems() {
         id: 4,
         title: "Kaalimirch Mathri",
         category: "काली मिर्च की हल्की तीख़ी चटकारा !",
-        price: "₹220/kg",
+        price: "₹240/kg",
         thumbnail: "/images/kaalimirchmathri_220.jpg",
       },
       {
@@ -50,7 +50,7 @@ export default function MaidaItems() {
         id: 6,
         title: "Namak Para",
         category: "पारंपरिक नमकीन, एकदम करारा !",
-        price: "₹240/kg",
+        price: "₹260/kg",
         thumbnail: "/images/namakpara_240.jpg",
       },
       {
