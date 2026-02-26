@@ -75,7 +75,7 @@ export default function FestiveDelights() {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold">Festive Delights</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">Your subtitle or tagline here</p>
+            <p className="text-sm md:text-base text-gray-600 mt-1">रंगों वाली मिठास – होली स्पेशल गुजिया</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">
