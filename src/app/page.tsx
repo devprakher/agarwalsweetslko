@@ -21,7 +21,7 @@ export default function Home() {
       <PromoBanner />
       <Header />
       <Hero />
-      <FestiveDelights />
+      {/* <FestiveDelights /> */}
       <FeaturedSweets />
       <BestSellers />
       <MaidaItems />
