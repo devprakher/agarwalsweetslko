@@ -6,7 +6,7 @@ import FeaturedSweets from "@/components/featured-sweet"
 // import Categories from "@/components/categories"
 import BestSellers from "@/components/best-sellers"
 // import Testimonials from "@/components/testimonials"
-// import SpecialOffers from "@/components/special-offer"
+import SpecialOffers from "@/components/special-offer"
 import Footer from "@/components/footer"
 import PromoBanner from "@/components/promo-banner"
 import MaidaItems from "@/components/maida-items"
@@ -29,7 +29,7 @@ export default function Home() {
       <Namkeens />
       <Premium />
       <SoSweet />
-      {/* <SpecialOffers /> */}
+      <SpecialOffers />
       {/* <Categories /> */}
       {/* <Testimonials /> */}
       <Footer />

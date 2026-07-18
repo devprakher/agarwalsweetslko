@@ -36,7 +36,7 @@ export default function FestiveDelights() {
       id: 4,
       title: "Feeni",
       category: "दूध की मिठास, नर्म और स्वादिष्ट !",
-      price: "₹960/kg",
+      // price: "₹960/kg",
       thumbnail: "/images/ghewar/feeni.png",
     },
   ]

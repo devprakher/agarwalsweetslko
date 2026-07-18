@@ -14,26 +14,42 @@ export default function SpecialOffers() {
   const offers = [
     {
       id: 1,
-      title: "Diwali Special Box",
-      description: "A premium collection of 12 varieties of traditional sweets perfect for Diwali celebrations.",
-      price: "₹1,200",
-      image: "/images/bhujia.jpg",
+      title: "Almond Truffle",
+      // description: "A premium collection of 12 varieties of traditional sweets perfect for Diwali celebrations.",
+      // price: "₹1,200",
+      image: "/images/chocolate-delights/almond-truffle.PNG",
       badge: "Limited Edition",
     },
     {
       id: 2,
-      title: "Assorted Gift Pack",
-      description: "Our bestselling assortment featuring 8 varieties of handcrafted sweets in an elegant box.",
-      price: "₹850",
-      image: "/images/peda.jpg",
+      title: "Birthday Pack",
+      // description: "Our bestselling assortment featuring 8 varieties of handcrafted sweets in an elegant box.",
+      // price: "₹850",
+      image: "/images/chocolate-delights/birthday-pack.PNG",
       badge: "Popular",
     },
     {
       id: 3,
-      title: "Wedding Collection",
-      description: "Luxurious sweet boxes perfect for wedding gifts and special occasions.",
-      price: "₹1,500",
-      image: "/images/kaju_katli.jpg",
+      title: "Bounty Bars",
+      // description: "Luxurious sweet boxes perfect for wedding gifts and special occasions.",
+      // price: "₹1,500",
+      image: "/images/chocolate-delights/bounty-bars.PNG",
+      badge: "Premium",
+    },
+    {
+      id: 4,
+      title: "Chocolate Bars",
+      // description: "Luxurious sweet boxes perfect for wedding gifts and special occasions.",
+      // price: "₹1,500",
+      image: "/images/chocolate-delights/chocolate-bars.PNG",
+      badge: "Premium",
+    },
+    {
+      id: 4,
+      title: "Chocolate Fudge",
+      // description: "Luxurious sweet boxes perfect for wedding gifts and special occasions.",
+      // price: "₹1,500",
+      image: "/images/chocolate-delights/chocolate-fudge.PNG",
       badge: "Premium",
     },
   ]
@@ -62,7 +78,7 @@ export default function SpecialOffers() {
           transition={{ duration: 0.5 }}
           className=" section-title text-2xl md:text-3xl font-bold mb-4"
         >
-          Special Gift Collections
+          Chocolate Delights
         </motion.h2>
 
         <motion.div
@@ -87,19 +103,19 @@ export default function SpecialOffers() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{offer.title}</h3>
-                <p className="text-gray-600 :text-gray-400 mb-4">{offer.description}</p>
-                <div className="flex justify-between items-center">
+                {/* <p className="text-gray-600 :text-gray-400 mb-4" style={{ display: 'none' }}>{offer.description}</p>
+                <div className="flex justify-between items-center" style={{ display: 'none' }}>
                   <span className="text-2xl font-bold text-[#e94560]">{offer.price}</span>
                   <Button className="bg-[#e94560] text-white font-bold hover:bg-[#e94560]/90">
                     <Gift className="mr-2 h-4 w-4" /> View Details
                   </Button>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.5, delay: 0.3 }}
@@ -108,7 +124,7 @@ export default function SpecialOffers() {
           <Button size="lg" className="bg-[#e94560] text-white font-bold hover:bg-[#e94560]/90">
             <ShoppingBag className="mr-2 h-5 w-5" /> View All Collections
           </Button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   )
