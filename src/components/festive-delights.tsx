@@ -13,31 +13,31 @@ export default function FestiveDelights() {
   const items = [
     {
       id: 1,
-      title: "Gujhiya",
-      category: "सादा स्वाद, होली की असली पहचान!",
-      price: "₹640/kg",
-      thumbnail: "/images/festivals/gujhiya_640.jpeg",
+      title: "Kesariya Malai Ghewar",
+      category: "दूध की मिठास, नर्म और स्वादिष्ट !",
+      price: "₹700/kg",
+      thumbnail: "/images/ghewar/kesariya-malai-ghewar.png",
     },
     {
       id: 2,
-      title: "Sugar Dip Gujhiya",
-      category: "चीनी की चाशनी में डूबी होली की मिठास!",
-      price: "₹640/kg",
-      thumbnail: "/images/festivals/sugar_dip_gujhiya_640.PNG",
+      title: "Plain Ghewar",
+      category: "दूध की मिठास, नर्म और स्वादिष्ट !",
+      price: "₹660/kg",
+      thumbnail: "/images/ghewar/plain-ghewar.jpeg",
     },
     {
       id: 3,
-      title: "Thandai Gujhiya",
-      category: "ठंडाई का नशा, गुजिया के अंदाज़ में!",
-      price: "₹640/kg",
-      thumbnail: "/images/festivals/thandai_gujhiya_640.PNG",
+      title: "Mini Kesariya Ghewar",
+      category: "दूध की मिठास, नर्म और स्वादिष्ट !",
+      price: "₹150/piece",
+      thumbnail: "/images/ghewar/mini-kesariya-ghewar.png",
     },
     {
       id: 4,
-      title: "Baby Kesar Gujhiya",
-      category: "छोटी सी गुजिया, केसर की बड़ी खुशबू!",
+      title: "Feeni",
+      category: "दूध की मिठास, नर्म और स्वादिष्ट !",
       price: "₹960/kg",
-      thumbnail: "/images/festivals/baby_kesar_gujhiya_640.PNG",
+      thumbnail: "/images/ghewar/feeni.png",
     },
   ]
 
@@ -74,8 +74,8 @@ export default function FestiveDelights() {
           className="flex justify-between items-center mb-8"
         >
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold">Festive Delights</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">रंगों वाली मिठास – होली स्पेशल गुजिया</p>
+            <h2 className="text-2xl md:text-3xl font-bold">Sawan Delights</h2>
+            <p className="text-sm md:text-base text-gray-600 mt-1">सावन की मिठास, हर निवाले में प्यार!</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">

@@ -15,42 +15,42 @@ export default function FeaturedSweets() {
       id: 1,
       title: "Madhumati",
       category: "हर बाइट में मधुर लखनवी सा प्यार !",
-      price: "₹600/kg",
+      price: "₹660/kg",
       thumbnail: "/images/madhumati_640.jpg",
     },
     {
       id: 2,
       title: "Mughal-E-Azam",
       category: "शाही स्वाद, जो दिल पर हुकूमत करे !",
-      price: "₹600/kg",
+      price: "₹660/kg",
       thumbnail: "/images/mughleazam_640.png",
     },
     {
       id: 3,
       title: "Paakiza",
       category: "नर्म, नाज़ुक और बिल्कुल लखनवी मिठास !",
-      price: "₹600/kg",
+      price: "₹660/kg",
       thumbnail: "/images/paakiza_640.jpg",
     },
     {
       id: 4,
       title: "Chena Toast",
       category: "पुराना स्वाद, नया लखनवी अंदाज़ !",
-      price: "₹600/kg",
+      price: "₹660/kg",
       thumbnail: "/images/chenatoast_640.png",
     },
     {
       id: 5,
       title: "Pista Kali",
       category: "नवबी पिसता की हरी भरी नुमाइश !",
-      price: "₹600/kg",
+      price: "₹660/kg",
       thumbnail: "/images/pistakali_640.png",
     },
     {
       id: 6,
       title: "Chena Chaap",
       category: "मुलायम छेना, अवधि नज़ाकत के साथ !",
-      price: "₹600/kg",
+      price: "₹660/kg",
       thumbnail: "/images/chenachaap_640.png",
     },
   ]
@@ -89,7 +89,7 @@ export default function FeaturedSweets() {
         >
           <div>
             <h2 className="text-2xl md:text-3xl font-bold">Chena Mithai</h2>
-            <p className="text-sm md:text-base text-gray-600 mt-1">नर्म, मुलायम और दिल को सुकून देने वाली मिठास !</p>
+            <p className="text-sm md:text-base text-gray-660 mt-1">नर्म, मुलायम और दिल को सुकून देने वाली मिठास !</p>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" size="icon" onClick={() => scrollContainer("left")} aria-label="Scroll left">
@@ -116,7 +116,7 @@ export default function FeaturedSweets() {
                   <div className="relative aspect-square overflow-hidden rounded-lg">
                     <Image
                       height={400}
-                      width={600}
+                      width={660}
                       src={sweet.thumbnail || "/placeholder.svg"}
                       alt={sweet.title}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

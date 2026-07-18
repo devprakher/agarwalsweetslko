@@ -15,7 +15,7 @@ export default function Mithai() {
       id: 1,
       title: "Besan Laddoo",
       category: "घी की खुशबू और घर जैसा स्वाद !",
-      price: "₹280/kg",
+      price: "₹300/kg",
       thumbnail: "/images/besanladdu_280.JPG",
     },
     {
@@ -29,14 +29,14 @@ export default function Mithai() {
       id: 3,
       title: "Motichoor Laddoo",
       category: "नाज़ुक दाने, रेशमी मिठास !",
-      price: "₹280/kg",
+      price: "₹300/kg",
       thumbnail: "/images/motichoorladdu_280.JPG",
     },
     {
       id: 4,
       title: "Meethi Boondi",
       category: "हल्की, रसदार और एकदम पारंपरिक !",
-      price: "₹180/kg",
+      price: "₹200/kg",
       thumbnail: "/images/methiboondi_180.JPG",
     },
     {

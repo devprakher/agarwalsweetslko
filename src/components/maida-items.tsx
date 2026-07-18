@@ -15,7 +15,7 @@ export default function MaidaItems() {
       id: 1,
       title: "Bada Khasta",
       category: "कुरकुरा और भरपूर स्वाद वाला लखनवी क्लासिक !",
-      price: "₹280/kg",
+      price: "₹360/kg",
       thumbnail: "/images/badakhasta_280.jpg",
     },
     {
@@ -29,21 +29,21 @@ export default function MaidaItems() {
         id: 3,
         title: "Chota Khasta",
         category: "छोटा आकार, बड़ी कुरकुराहट !",
-        price: "₹280/kg",
+        price: "₹360/kg",
         thumbnail: "/images/chotakhasta_280.jpg",
       },
       {
         id: 4,
         title: "Kaalimirch Mathri",
         category: "काली मिर्च की हल्की तीख़ी चटकारा !",
-        price: "₹240/kg",
+        price: "₹260/kg",
         thumbnail: "/images/kaalimirchmathri_220.jpg",
       },
       {
         id: 5,
         title: "Mini Samosa",
         category: "हर बाइट में मसालेदार मज़ा !",
-        price: "₹280/kg",
+        price: "₹360/kg",
         thumbnail: "/images/minisamosa_280.jpg",
       },
       {
@@ -57,7 +57,7 @@ export default function MaidaItems() {
         id: 7,
         title: "Saakhe",
         category: "पारंपरिक नमकीन, एकदम करारा !",
-        price: "₹240/kg",
+        price: "₹260/kg",
         thumbnail: "/images/sakhe_240.jpg",
       },
   ]
